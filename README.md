@@ -15,7 +15,7 @@ estimation in stochastic derivative-free optimization_. Pre-print available at <
 ## Authors
 
 * Francesco Rinaldi (e-mail: [rinaldi@math.unipd.it](mailto:rinaldi@math.unipd.it))
-* Luis Nunes Vicente  (e-mail: [lnv@lehigh.edu](mailto:lnv@lehigh.edu)
+* Luis Nunes Vicente  (e-mail: [lnv@lehigh.edu](mailto:lnv@lehigh.edu))
 * Damiano Zeffiro (e-mail: [zeffiro@math.unipd.it](mailto:zeffiro@math.unipd.it))
 
 ## Licensing
@@ -35,7 +35,7 @@ along with s_defective_fw. If not, see <http://www.gnu.org/licenses/>.
 
 
 1. This directory should contain the following elements:
-    * `main.m`,
+    * `main.m`
     * `data_gen.m`
     * `data_profile.m`
     * `direct_search_ns_noise.m`
@@ -47,4 +47,4 @@ along with s_defective_fw. If not, see <http://www.gnu.org/licenses/>.
     * `README.md`
     * `PROBLEMS`
 2. To generate the profiles, just run the main.m file specifying the desired parameters for each instance of the algorithm to be compared.
-3. The file problems.mat contains the function handles together with some attributes (e.g. name, dimension) of the problems in the 'PROBLEM' folder.
+3. The file problems.mat contains the function handles together with some attributes (e.g. name, dimension) of the problems in the 'PROBLEMS' folder.
