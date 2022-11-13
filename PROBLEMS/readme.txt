@@ -1,1 +1,1 @@
-96 instances of non smooth optimization problems
+a collection of non smooth optimization problems
