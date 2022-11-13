@@ -9,7 +9,7 @@ with f continuous but possibly non smooth. The function f is availble only via t
 ## Reference papers
 
 [1] F. Rinaldi, L. N. Vicente, D. Zeffiro (2022). _A weak tail-bound probabilistic condition for function
-estimation in stochastic derivative-free optimization_. Pre-print available at <https://arxiv.org/abs/2202.11052>.
+estimation in stochastic derivative-free optimization_. Pre-print available at <https://arxiv.org/abs/2202.11074>.
 
 
 ## Authors
@@ -36,15 +36,15 @@ along with s_defective_fw. If not, see <http://www.gnu.org/licenses/>.
 
 1. This directory should contain the following elements:
     * `main.m`,
-    * 'data_gen.m'
-    * 'data_profile.m'
-    * 'direct_search_ns_noise.m'
-    * 'noise_generator.m'
-    * 'perf_profile.m'
-    * 'profiles.m'
-    * 'problems.mat'
+    * `data_gen.m`
+    * `data_profile.m`
+    * `direct_search_ns_noise.m`
+    * `noise_generator.m`
+    * `perf_profile.m`
+    * `profiles.m`
+    * `problems.mat`
     * `non smooth`
     * `README.md`
-    * PROBLEMS
+    * `PROBLEMS`
 2. To generate the profiles, just run the main.m file specifying the desired parameters for each instance of the algorithm to be compared.
 3. The file problems.mat contains the function handles together with some attributes (e.g. name, dimension) of the problems in the 'PROBLEM' folder.
