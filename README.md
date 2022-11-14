@@ -2,7 +2,7 @@
 We consider a derivative free algorithm for the solution of the following problem
 
          min f(x)
-    s.t. x in $R^n$,
+    s.t. x in $$R^n$$,
     
 with f continuous but possibly non smooth. The function f is availble only via through a noisy oracle, which can be sampled multiple times at the same point. The code compares different instances of a basic direct search algorithm on some well known problems, varying the sufficient decrease condition and the number of samples used to compute function estimates at every iteration. See [1] for further details. 
 
