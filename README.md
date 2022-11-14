@@ -1,5 +1,5 @@
 # Stochastic direct search for non smooth optimization
-We consider a <sup>superscript</sup> free algorithm for the solution of the following problem
+We consider a derivative free algorithm for the solution of the following problem
 
          min f(x)
     s.t. x in R^n,
